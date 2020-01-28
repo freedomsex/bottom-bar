@@ -11,7 +11,7 @@
     "url": "git+https://github.com/freedomsex/bottom-bar.git"
   },
   "peerDependencies": { 
-    "@freedomsex/styles": "0.0.3",
+    "@freedomsex/styles": "0.0.3"
   },
   "keywords": [
     "vue",
