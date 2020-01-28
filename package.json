@@ -1,0 +1,27 @@
+{
+  "name": "@freedomsex/bottom-bar",
+  "version": "1.0.0",
+  "description": "Nav bar vue component ",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedomsex/bottom-bar.git"
+  },
+  "peerDependencies": { 
+    "@freedomsex/styles": "0.0.3",
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "nav"
+  ],
+  "author": "tebaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freedomsex/bottom-bar/issues"
+  },
+  "homepage": "https://github.com/freedomsex/bottom-bar#readme"
+}
