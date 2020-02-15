@@ -58,7 +58,7 @@ export default {
     padding: 0px 5px;
     position: relative;
 
-    color: @dark-light;
+    color: @gray-dark;
     cursor: pointer;
 
     &__icon {
