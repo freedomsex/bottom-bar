@@ -1,13 +1,13 @@
 <script>
 export default {
-  props: ['centred'],
-  data: () => ({}),
+  props: ['centred', 'icons'],
+  data: () => ({}), 
 };
 </script>
 
 <template>
   <div class="bottom-bar">
-    <div class="bottom-bar__wrapper" :class="{centred}">
+    <div class="bottom-bar__wrapper" :class="{centred, icons}">
       <slot></slot>
     </div>
   </div>
@@ -44,6 +44,12 @@ export default {
     &.centred {
       justify-content: center;
     }
+    &.icons {
+      padding: 5px @indent-sm;
+      .material-icons {
+        font-size: 28px;
+      }
+    }
   }
 
   .nav-button {
@@ -68,7 +74,7 @@ export default {
 
       &-text {
         padding-top: 3px;
-        font-size: 20px;
+        font-size: 20px; 
       }
     }
 
